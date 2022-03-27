@@ -19,9 +19,30 @@ namespace Lab02_1
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
-            PrincipalMDI principal = new PrincipalMDI();
-            principal.Show();
-            this.Hide();
+            Dictionary<string, string> userCredentials = new Dictionary<string, string>
+            {
+                {"usuario1", "123"},
+                {"usuario2", "1234"},
+                {"usuario3", "12345"},
+
+            };
+            String username = txtUsuario.Text;
+            String password = txtPassword.Text;
+
+            string foundPassword;
+
+            if (userCredentials.TryGetValue(username, out foundPassword) && (foundPassword == password))
+            {
+
+                PrincipalMDI principal = new PrincipalMDI();
+                principal.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos");
+            }
+
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
