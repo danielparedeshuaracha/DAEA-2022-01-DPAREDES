@@ -11,19 +11,25 @@ using System.Data.SqlClient;
 
 namespace Lab03
 {
-    public partial class Persona : Form
+    public partial class Usuario : Form
     {
         SqlConnection conn;
-        public Persona(SqlConnection conn)
+        public Usuario(SqlConnection conn)
         {
             this.conn = conn;
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         private void btnListar_Click(object sender, EventArgs e)
         {
             if (conn.State == ConnectionState.Open)
             {
-                String sql = "select * from Person";
+                String sql = "select * from tbl_usuario";
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 SqlDataReader reader = cmd.ExecuteReader();
 
@@ -38,32 +44,18 @@ namespace Lab03
             }
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             if (conn.State == ConnectionState.Open)
             {
-                String FirstName = txtNombre.Text;
-                SqlCommand cmd = new SqlCommand();
-                cmd.CommandText = "BuscarPersonaNombre";
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Connection = conn;
-
-                SqlParameter param = new SqlParameter();
-                param.ParameterName = "@FirstName";
-                param.SqlDbType = SqlDbType.NChar;
-
-                param.Value = FirstName;
-
-                cmd.Parameters.Add(param);
+                String nombre = txtNombre.Text;
+                String sql = "select * from tbl_usuario where usuario_nombre LIKE '" + nombre + "%'";
+                SqlCommand cmd = new SqlCommand(sql, conn);
 
                 SqlDataReader reader = cmd.ExecuteReader();
                 DataTable dt = new DataTable();
                 dt.Load(reader);
+
                 dgvListado.DataSource = dt;
                 dgvListado.Refresh();
             }

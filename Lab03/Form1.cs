@@ -110,10 +110,16 @@ namespace Lab03
             }
         }
 
+        private void btnUsuario_Click(object sender, EventArgs e)
+        {
+            Usuario usuario = new Usuario(conn);
+            usuario.Show();
+        }
+
         private void btnPersona_Click(object sender, EventArgs e)
         {
-            Persona persona = new Persona(conn);
-            persona.Show();
+            Persona login = new Persona(conn);
+            login.Show();
         }
     }
 }

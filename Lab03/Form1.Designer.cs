@@ -41,6 +41,7 @@
             this.btnEstado = new System.Windows.Forms.Button();
             this.btnDesconectar = new System.Windows.Forms.Button();
             this.btnPersona = new System.Windows.Forms.Button();
+            this.Persona = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -163,15 +164,26 @@
             this.btnPersona.Name = "btnPersona";
             this.btnPersona.Size = new System.Drawing.Size(75, 23);
             this.btnPersona.TabIndex = 12;
-            this.btnPersona.Text = "Personas";
+            this.btnPersona.Text = "Usuarios";
             this.btnPersona.UseVisualStyleBackColor = true;
-            this.btnPersona.Click += new System.EventHandler(this.btnPersona_Click);
+            this.btnPersona.Click += new System.EventHandler(this.btnUsuario_Click);
+            // 
+            // Persona
+            // 
+            this.Persona.Location = new System.Drawing.Point(299, 201);
+            this.Persona.Name = "Persona";
+            this.Persona.Size = new System.Drawing.Size(75, 23);
+            this.Persona.TabIndex = 13;
+            this.Persona.Text = "Personas";
+            this.Persona.UseVisualStyleBackColor = true;
+            this.Persona.Click += new System.EventHandler(this.btnPersona_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(439, 236);
+            this.Controls.Add(this.Persona);
             this.Controls.Add(this.btnPersona);
             this.Controls.Add(this.btnDesconectar);
             this.Controls.Add(this.btnEstado);
@@ -207,5 +219,6 @@
         private Button btnEstado;
         private Button btnDesconectar;
         private Button btnPersona;
+        private Button Persona;
     }
 }
