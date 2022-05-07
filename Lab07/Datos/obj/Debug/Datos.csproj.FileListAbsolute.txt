@@ -1,0 +1,6 @@
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Datos\bin\Debug\Datos.dll
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Datos\bin\Debug\Datos.pdb
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Datos\obj\Debug\Datos.dll
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Datos\obj\Debug\Datos.pdb

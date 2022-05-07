@@ -1,0 +1,16 @@
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\bin\Debug\Presentacion.exe.config
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\bin\Debug\Presentacion.exe
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\bin\Debug\Presentacion.pdb
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\bin\Debug\Negocio.dll
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\bin\Debug\Negocio.pdb
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\obj\Debug\Presentacion.exe
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\obj\Debug\Presentacion.pdb
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\bin\Debug\Datos.dll
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\bin\Debug\Datos.pdb
+F:\ARCHIVOS\ARCHIVOS TECSUP\TECSUP 2022-I\Desarrollo de Aplicaciones Empresariales Avanzado\SEMANA 7\Lab07\Presentacion\obj\Debug\Presentacion.Form1.resources
