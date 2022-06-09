@@ -1,0 +1,35 @@
+﻿@model List<Lab13.Models.Persona>
+@{
+    ViewBag.Title = "Listar";
+    var grid = new WebGrid(source: Model, columnNames: new[]{
+            "PersonaID", "Nombre", "Apellido", "FechaNac", "Direccion", "Email"
+        });
+}
+
+@using (Html.BeginForm("Buscar", "Persona", FormMethod.Get))
+{
+    <br />
+    <b>Buscar por: </b>
+    <br />
+    @Html.RadioButton("busqueda", "Nombre", true) <text>Nombre</text>
+    @Html.RadioButton("busqueda", "Apellido") <text>Apellido</text>
+    <br />
+    @Html.TextBox("search")
+    <input type="submit" value="Buscar" class="btn btn-primary" />
+}
+
+<h2>Listado de Personas</h2>
+
+@grid.GetHtml(tableStyle: "table table-strisped", columns: grid.Columns(
+                grid.Column(columnName: "PersonaID", header: "PersonaID"),
+                grid.Column(columnName: "Nombre", header: "Nombre"),
+                grid.Column(columnName: "Apellido", header: "Apellido"),
+                grid.Column(columnName: "FechaNac", header: "FechaNac"),
+                grid.Column(columnName: "Direccion", header: "Dirección"),
+                grid.Column(columnName: "Email", header: "Email"),
+                grid.Column(header: "Acciones", format: (item) =>
+                Html.ActionLink("Ver", "Mostrar", "Persona",
+                                                new { id = item.PersonaID }, null))
+
+                )
+            )
