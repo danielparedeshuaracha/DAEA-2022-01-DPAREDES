@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Lab14.Models.Products>
+@{
+    ViewBag.Title = "Details";
+}
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0 font-size-18">Lista de Productos</h4>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="float-end mb-1">
+                   @Html.ActionLink("Agregar Categoria", "Create", null,
+                        new { @class = "btn btn-sm btn-primary" })
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table id="tblLista" class="table table-sm table-bordered table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">@Html.DisplayNameFor(model => model.ProductID)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.ProductName)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.SupplierID)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.CategoryID)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.QuantityPerUnit)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.UnitPrice)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.UnitsInStock)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.UnitsOnOrder)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.ReorderLevel)</th>
+                                <th scope="col">@Html.DisplayNameFor(model => model.Discontinued)</th>                    
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var product in Model)
+                            {
+                                <tr>
+                                    <th>@Html.DisplayFor(modelItem => product.ProductID)</th>
+                                    <td>@Html.DisplayFor(modelItem => product.ProductName)</td>
+                                    <td>@Html.DisplayFor(modelItem => product.SupplierID)</td>
+                                    <td>@Html.DisplayFor(modelItem => product.CategoryID)</td>
+                                    <td>@Html.DisplayFor(modelItem => product.QuantityPerUnit)</td>
+                                    <td>@Html.DisplayFor(modelItem => product.UnitPrice)</td>
+                                    <td>@Html.DisplayFor(modelItem => product.UnitsInStock)</td>
+                                    <td>@Html.DisplayFor(modelItem => product.UnitsOnOrder)</td>
+                                    <td>@Html.DisplayFor(modelItem => product.ReorderLevel)</td>
+                                    <td>@Html.DisplayFor(modelItem => product.Discontinued)</td>                
+                                </tr>
+                            }</tbody></table></div></div></div></div></div>
